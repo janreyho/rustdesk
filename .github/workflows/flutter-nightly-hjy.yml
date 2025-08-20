@@ -1,4 +1,4 @@
-name: Flutter Nightly Build
+name: Flutter Nightly-hjy Build
 
 on:
   schedule:
@@ -8,7 +8,7 @@ on:
 
 jobs:
   run-flutter-nightly-build:
-    uses: ./.github/workflows/flutter-build.yml
+    uses: ./.github/workflows/flutter-build-hjy.yml
     secrets: inherit
     with:
       upload-artifact: true
